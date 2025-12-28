@@ -1,17 +1,17 @@
 [
   {
-    "name": "Sootio",
+    "name": "StremThru Store",
     "type": "json_imdb",
     "imdbType": "movie",
     "itemType": "info_hash",
     "infoHashTargetKey": "infoHash",
     "jsonResultsKey": "streams",
-    "torrentNameTargetKey": "behaviorHints.filename",
+    "torrentNameTargetKey": "title",
     "sizeAttr": "behaviorHints.videoSize",
     "searchPattern": {
       "movie": "movie/%imdbId",
       "tv": "series/%imdbId:%season:%episode"
     },
-    "url": "https://sootio.elfhosted.com/%7B%22DebridServices%22%3A%5B%7B%22provider%22%3A%22RealDebrid%22%2C%22apiKey%22%3A%22H6CW6555SY7XEZFJJJ2CLVM7R63SE5RSIL2RK3O6RH7WZRPAJJHQ%22%7D%2C%7B%22provider%22%3A%22TorBox%22%2C%22apiKey%22%3A%22be887662-b2e8-4e93-b6fb-f1d35cf2eaff%22%7D%5D%2C%22Languages%22%3A%5B%5D%2C%22Scrapers%22%3A%5B%5D%2C%22IndexerScrapers%22%3A%5B%22zilean%22%5D%2C%22minSize%22%3A0%2C%22maxSize%22%3A200%2C%22ShowCatalog%22%3Atrue%2C%22DebridProvider%22%3A%22RealDebrid%22%2C%22DebridApiKey%22%3A%22H6CW6555SY7XEZFJJJ2CLVM7R63SE5RSIL2RK3O6RH7WZRPAJJHQ%22%7D/stream/%searchPattern.json"
+    "url": "https://stremthru.13377001.xyz/stremio/store/stream/%searchPattern.json"
   }
 ]
